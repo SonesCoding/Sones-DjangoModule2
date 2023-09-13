@@ -1,0 +1,13 @@
+Theres an issue I know has a really dumb stupid solution, and I know the way the data will be displayed is 
+wrong/rough I was just getting something out there. The form is not perfect. I hope after you look over my progress so far I can go ahead and clean up my templates/html, migrate, populate with my tables data, and then worry about the display of data/user input then.
+
+I followed the django docs a lot, so I hope everything makes sense somewhat.
+
+https://docs.djangoproject.com/en/4.2/howto/static-files/#:~:text=Websites%20generally%20need%20to%20serve,can%20serve%20these%20static%20files.
+
+https://medium.com/geekculture/how-to-django-urls-and-templates-b0010a5cb880
+
+https://www.youtube.com/watch?v=H3joYTIRqKk
+
+https://docs.djangoproject.com/en/4.2/topics/forms/
+

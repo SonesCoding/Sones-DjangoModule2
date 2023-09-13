@@ -1,0 +1,21 @@
+{% extends 'starshop/basic.html'%}
+
+{%load static%}
+{% block content%}
+<header>
+    <h2>A Star Shop</h2>
+    <h3>Arranged by the Cosmos</h3>
+  </header>
+
+  <form action="/" method="post">
+  {% for Star in star_list %}
+                {{form}}
+                <label for = "{{Star.name}}">{{Star.name}}</label>
+                <li>{{Star.price}}</li>
+                <li>{{Star.color}}</li>
+                <input type="radio" id="{{Star.name}}" value= "{{current_name}}" >
+                <br>
+    {% endfor %}
+        <input type="submit" value="Done?">
+  </form>        
+           {%endblock%}
